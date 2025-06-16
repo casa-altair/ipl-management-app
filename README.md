@@ -47,3 +47,11 @@
     - ng g c features/user/components/team-list
     - ng g c features/user/components/player-list
     - ng g m features/user/user-routing --flat --module=app
+
+## 6 Backend
+- npm init and install json server
+    - create backend folder and make db.json and write the datas
+    - npm init and enter
+    - npm i json-server
+    - "json-server": "^0.17.4" and "start": "json-server db.json" in package.json
+    - npm start to run the json server
