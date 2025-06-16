@@ -18,8 +18,8 @@
     - ng g s core/guards/auth
     - ng g i core/models/user-model
 
-## 3
-- Shared Module
+## 3 Shared Module
+- Components
     - We can add here that will be reused in entire application
     - ng g c shared/components/team-card
     - ng g c shared/components/player-card
@@ -33,3 +33,11 @@
     - ng g s shared/services/player
     - ng g i shared/models/team-model
     - ng g i shared/models/player-model
+
+## 4 Admin Module
+- Components
+    - ng g c features/admin/components/dashboard
+    - ng g c features/admin/components/team-list
+    - ng g c features/admin/components/player-list
+- Create lazy loading concept routes
+    - ng g m features/admin/admin-routing --flat --module=app
