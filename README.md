@@ -12,7 +12,7 @@
     - ng g m features/user
     - Create a folder inside app/.env
 - Create Services (Data kept here are basically 1 time use)
-    - ng g s core/service/auth
+    - ng g s core/services/auth
     - ng g c core/components/login
     - ng g c core/components/register
     - ng g s core/guards/auth
@@ -64,3 +64,6 @@
 
 ## 9 Create environment files
 - Create environment folder in src/environment
+
+## 10 Import login material
+- Import HTTP Client and environment
