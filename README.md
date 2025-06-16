@@ -58,3 +58,6 @@
 
 ## 7 app.module import HttpClientModule
 - import HttpClientModule in app.module.ts
+
+## 8 Import HTTP to auth
+- import to auth.service.ts
