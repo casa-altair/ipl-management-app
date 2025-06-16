@@ -61,3 +61,6 @@
 
 ## 8 Import HTTP to auth
 - import to auth.service.ts
+
+## 9 Create environment files
+- Create environment folder in src/environment
