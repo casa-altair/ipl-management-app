@@ -12,5 +12,21 @@
             "name": "MS Dhoni",
             "role": "Wicket Keeper"
         }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "name": "Admin",
+            "email": "admin@admin.com",
+            "password": "admin@123",
+            "role": "admin"
+        },
+        {
+            "id": 2,
+            "name": "Alok",
+            "email": "user@user.com",
+            "password": "user@123",
+            "role": "user"
+        }
     ]
 }

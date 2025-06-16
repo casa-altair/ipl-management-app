@@ -54,4 +54,7 @@
     - npm init and enter
     - npm i json-server
     - "json-server": "^0.17.4" and "start": "json-server db.json" in package.json
-    - npm start to run the json server
+    - "npm start" to run the json server
+
+## 7 app.module import HttpClientModule
+- import HttpClientModule in app.module.ts
