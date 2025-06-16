@@ -1,0 +1,16 @@
+{
+    "teams": [
+        {
+            "id": 1,
+            "name": "CSK",
+            "status": "Active"
+        }
+    ],
+    "players": [
+        {
+            "id": 1,
+            "name": "MS Dhoni",
+            "role": "Wicket Keeper"
+        }
+    ]
+}

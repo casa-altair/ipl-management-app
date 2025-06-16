@@ -39,5 +39,11 @@
     - ng g c features/admin/components/dashboard
     - ng g c features/admin/components/team-list
     - ng g c features/admin/components/player-list
-- Create lazy loading concept routes
     - ng g m features/admin/admin-routing --flat --module=app
+
+## 5 User Module
+- Components
+    - ng g c features/user/components/dashboard
+    - ng g c features/user/components/team-list
+    - ng g c features/user/components/player-list
+    - ng g m features/user/user-routing --flat --module=app
