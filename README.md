@@ -16,4 +16,20 @@
     - ng g c core/components/login
     - ng g c core/components/register
     - ng g s core/guards/auth
-    - ng g i models/user-model
+    - ng g i core/models/user-model
+
+## 3
+- Shared Module
+    - We can add here that will be reused in entire application
+    - ng g c shared/components/team-card
+    - ng g c shared/components/player-card
+    - ng g c shared/components/navbar
+    - ng g c shared/components/team-form
+    - ng g c shared/components/player-form
+    - ng g c shared/components/search
+
+- Create Shared module Services
+    - ng g s shared/services/team
+    - ng g s shared/services/player
+    - ng g i shared/models/team-model
+    - ng g i shared/models/player-model
